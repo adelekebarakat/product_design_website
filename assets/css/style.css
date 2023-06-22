@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+.nav_bar{
+    background-image: url("/assets/img/image/Rectangle-12-Copy.jpg");
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: 500 16px "Roboto";
+}
+/* .custom-toggler.navbar-toggler.icon {
+    border-color: green;
+} */
+.txt{
+    margin-top: 300px;
+}
+.text{
+    box-sizing: border-box;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+    word-break: break-word;
+    font: 500 16px "Roboto", "Op";
+    color: #717a81;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: white;
+}
+h1,p{
+    text-align: center;
+}
+
+
