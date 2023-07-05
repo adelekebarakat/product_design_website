@@ -11,7 +11,7 @@
     background-image: url("/assets/img/v36-intro.jpg");
     width: 100%;
     min-height: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     position: relative;
     top: 0;
     left: 0;
@@ -561,4 +561,41 @@ h6{
       }
     
 }
+
+#back-to-top{
+    color: #ffffff;
+    transition: 0.2s linear all;
+    background: #2293D7 !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 17px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
   
+/* .scroll-container {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+  }
+
+  /*to hide the button when page first loaded*/ 
+  /* .scroll-container:before {
+    content: '';
+    display: block;
+    pointer-events: none;
+  } */
+
+  /*fixed to right bottom of page*/
+  /* .scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+  } */ 
